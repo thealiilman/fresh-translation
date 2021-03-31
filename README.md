@@ -1,24 +1,23 @@
-# README
+# Fresh Translation
+Fresh Translation is used for me to prepare my talk at Ruby Ireland 31st of March 2021 meetup.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<details>
+  <summary>Why is it called Fresh Translation?</summary>
 
-Things you may want to cover:
+  > If you gave me a fresh translation
+  > 
+  > I would only crush its tender letters
+  > 
+  > With me you'll have no escape
+  > 
+  > And at the same time there'll be no word to utter
+  
+  Ay, it is Carnation by the Jam!
 
-* Ruby version
+  [![https://img.youtube.com/vi/SJOgIOJuO2Q/0.jpg](https://img.youtube.com/vi/SJOgIOJuO2Q/0.jpg)](https://www.youtube.com/watch?v=SJOgIOJuO2Q)
+</details>
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## How to run the app
+1. Ensure that you are running Ruby 3.0.0
+2. `bundle install`
+3. Voila, `rails s` and `rails c` shall work

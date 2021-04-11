@@ -25,7 +25,7 @@ class PhrasesController < ApplicationController
   # to witness the prevention of locale leakage when
   # setting of locale doesn't happen in #english action
 
-  def german(e)
+  def german
     I18n.locale = :de
     render json: I18n.t('eat')
     # I18n.with_locale(:de) do

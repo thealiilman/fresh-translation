@@ -1,4 +1,5 @@
 class Post < ApplicationRecord
   extend Mobility
-  translates :title, :description, backend: :table
+  translates :title, dirty: false, backend: :table
+  translates :description, backend: :table
 end

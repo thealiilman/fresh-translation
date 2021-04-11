@@ -53,7 +53,7 @@ Mobility.configure do
     # Dirty
     #
     # Uncomment this line to include and enable globally:
-    # dirty
+    dirty
     #
     # Or uncomment this line to include but disable by default, and only enable
     # per model by passing +dirty: true+ to +translates+.
@@ -91,7 +91,7 @@ Mobility.configure do
     # +method_missing+ is very slow.  (You can use both fallthrough and locale
     # accessor plugins together without conflict.)
     #
-    # fallthrough_accessors
+    fallthrough_accessors
 
     # Locale Accessors
     #
@@ -99,7 +99,7 @@ Mobility.configure do
     # +I18n.available_locales+, but you can pass the set of locales with
     # +translates+ and/or set a global default here.
     #
-    # locale_accessors
+    locale_accessors
     #
     # Or define specific defaults by uncommenting line below
     # locale_accessors [:en, :ja]

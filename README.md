@@ -22,3 +22,6 @@ Fresh Translation is used for me to prepare my talk at Ruby Ireland 31st of Marc
 2. `bundle install` to install dependencies
 3. `rails db:create db:migrate` to create and migrate the databases
 4. Voila, `rails s` and `rails c` shall work
+
+## How to see locale leakage and prevention of locale leakage in action
+See https://github.com/thealiilman/fresh-translation/blob/main/app/controllers/phrases_controller.rb#L1

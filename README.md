@@ -19,5 +19,6 @@ Fresh Translation is used for me to prepare my talk at Ruby Ireland 31st of Marc
 
 ## How to run the app
 1. Ensure that you are running Ruby 3.0.0
-2. `bundle install`
-3. Voila, `rails s` and `rails c` shall work
+2. `bundle install` to install dependencies
+3. `rails db:create db:migrate` to create and migrate the databases
+4. Voila, `rails s` and `rails c` shall work

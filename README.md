@@ -12,7 +12,7 @@ Fresh Translation is used for me to prepare my talk at Ruby Ireland 31st of Marc
   > 
   > And at the same time there'll be no word to utter
   
-  Ay, it is Carnation by the Jam!
+  Aye, it is Carnation by the Jam!
 
   [![https://img.youtube.com/vi/SJOgIOJuO2Q/0.jpg](https://img.youtube.com/vi/SJOgIOJuO2Q/0.jpg)](https://www.youtube.com/watch?v=SJOgIOJuO2Q)
 </details>
@@ -23,5 +23,7 @@ Fresh Translation is used for me to prepare my talk at Ruby Ireland 31st of Marc
 3. `rails db:create db:migrate` to create and migrate the databases
 4. Voila, `rails s` and `rails c` shall work
 
-## How to see locale leakage and prevention of locale leakage in action
-See https://github.com/thealiilman/fresh-translation/blob/main/app/controllers/phrases_controller.rb#L1
+## Resources
+- [Mobility's repo](https://github.com/shioyama/mobility/)
+- [See locale leakage and prevention of locale leakage in action](https://github.com/thealiilman/fresh-translation/blob/main/app/controllers/phrases_controller.rb#L1)
+
